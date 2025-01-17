@@ -1,0 +1,39 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+  height: 10%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .navbar-heading {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+.navbar-emoji-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navabar-image {
+  height: 28px;
+  width: 28px;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  .navabar-image {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,80 @@
+/* Write your code here. */
+.result-card-container {
+  background-color: #ffffff33;
+  font-family: 'roboto';
+  border-radius: 30px;
+  border: 1px solid #ffffff33;
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.result-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.winloose-image {
+  height: 300px;
+  width: 200px;
+}
+.score-heading {
+  font-size: 28px;
+  color: greenyellow;
+}
+.player-score {
+  font-size: 30px;
+  color: blue;
+}
+
+.play-button {
+  padding: 12px 20px;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffce27;
+  color: white;
+  border-width: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.play-button:hover {
+  background-color: lightgreen;
+}
+@media (max-width: 767px) {
+  .player-score {
+    font-size: 18px;
+    color: blue;
+  }
+  .play-button {
+    padding: 6px 12px;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffce27;
+    color: white;
+    border-width: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  .score-heading {
+    font-size: 14px;
+    color: greenyellow;
+  }
+  .winloose-image {
+    height: 120px;
+    width: 80px;
+  }
+  .result-card-container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
