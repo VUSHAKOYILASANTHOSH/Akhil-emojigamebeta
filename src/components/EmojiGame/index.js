@@ -67,11 +67,11 @@ class EmojiGame extends Component {
 
   renderEmojiCard = () => {
     const {score} = this.state
-    const sheffledEmojiList = this.getShuffledEmojiList()
+    const shuffledEmojisList = this.getShuffledEmojiList()
 
     return (
       <ul className="emoji-card-container">
-        {sheffledEmojiList.map(eachEmoji => (
+        {shuffledEmojisList.map(eachEmoji => (
           <EmojiCard
             emojiDetails={eachEmoji}
             key={eachEmoji.id}
